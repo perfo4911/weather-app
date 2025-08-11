@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App (MVC)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>🌤 Weather App</h1>
+
+    <!-- Search form -->
+    <form id="searchForm">
+      <input type="text" id="cityInput" placeholder="Enter city name..." required>
+      <button type="submit">Search</button>
+    </form>
+
+    <!-- Weather output -->
+    <div id="weatherContainer" class="weather-container">
+      <p class="placeholder">Search for a city to see the weather</p>
+    </div>
+  </div>
+
+  <!-- Import MVC JS files -->
+  <script type="module" src="js/controller.js"></script>
+</body>
+</html>
